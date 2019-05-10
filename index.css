@@ -1,0 +1,18 @@
+body div{
+	margin:0 10%;
+	height: 100%;
+}
+
+#title{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#template_link{
+	/* lock it to bottom */
+	position: fixed;
+  	bottom: 10px;
+	right:10px;
+	/* make it perty */
+	background-color:dimgrey;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

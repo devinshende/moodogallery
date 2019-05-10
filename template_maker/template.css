@@ -1,0 +1,28 @@
+.go{
+	background-color:lightseagreen;
+	border-radius: 5px;
+	padding:10px;
+}
+#add_video {
+	border-radius: 5px;
+	color:antiquewhite;
+	background-color:black;
+	padding: 10px;
+	display:none;
+}
+#homelink{
+	position:fixed;
+	bottom:4px;
+}
+
+#videos {
+	/* border:2px dashed green; */
+	padding-left:25px;
+}
+
+#section_open {
+	/* border:2px solid yellow; */
+}
+#section_close {
+	/* border:2px solid orange; */
+}

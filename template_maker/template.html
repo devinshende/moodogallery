@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<link href="template.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="h1anddata">
+		<h1>Make a new section!</h1>
+		<button class="go" onclick="make_section()">GO!</button> <br>
+		<h1>Add a video to an existing section</h1>
+		<button class="go" onclick="make_video_code()">GO!</button> <br>
+	</div>
+
+
+	<div>
+		<h1 id="code_heading"></h1>
+		<code id="result">
+			<button id="add_video" onclick="add_video(true)">Add video</button>
+			
+			<div id="section_open"></div>
+			<!-- section code for collapsible -->
+			
+			<div id="videos">
+				<!-- Video html goes here -->
+			</div>
+			
+			<div id="section_close"></div>
+			<!-- section code for "close" button, and end of section -->
+		</code>
+	</div>
+	
+	<div style="height:500px;">
+	</div>
+
+	<ul id="metadata">
+			<!-- name, embed code, and more to be entered here -->
+	</ul>
+
+	<div id="preview"></div>
+
+	
+	<a id="homelink" href="../index.html"> Home </a>
+
+    <script src="../script.js"></script>
+	<script src="template.js"></script>
+  </body>
+</html>
